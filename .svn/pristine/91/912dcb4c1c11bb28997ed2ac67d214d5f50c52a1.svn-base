@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/public.css">
+        <link rel="stylesheet" type="text/css" href="../css/header-and-footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/mycart.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/orders.css">
+        <script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
+    </head>
+    <body>
+    	<div class="topHeader">
+			<div class="width1040pxAuto">
+		    	<strong class="left">CNKI书刊超市</strong>
+		        <div class="right nav">欢迎您：<span class="user">2357931698</span>&nbsp;<a href="#" title="" target="_blank">退出</a> | <a href="#" title="" target="_blank">我的数字书房</a> | <a href="#" title="" target="_blank">购买知网卡</a> | <a href="#" title="" target="_blank">充值中心</a> | <a href="#" title="" target="_blank">在线客服</a> | <a href="#" title="" target="_blank">发票索取</a></div>
+		    </div>
+		</div>
+	    <div class="header">
+	    	<div class="width1040pxAuto">
+	        	<div class="logo left"><img class="left" src="../images/mycart-h-logo.png" width="134" height="52"><span class="left">购物车</span></div>
+	            <div class="step right"><img src="../images/mycart-step2.png" width="287" height="52"></div>
+	        </div>
+    	</div>
+    	<div class="confirmOrder orders mycart width1040pxAuto">
+			<div class="address positionR">
+				<div class="module-hd">
+					<div class="title">选择纸刊收货地址</div>
+				</div>
+				<div class="module-bd clearfix">
+					<div class="card active">
+						<div class="title">河北张家口（曹慧美 收）</div>
+						<p>海港 文化路 太阳城长安路25号苹果专卖店  18654568952</p>
+						<div class="actions">
+							<a href="javascript:;">修改</a>
+							<a href="javascript:;">删除</a>
+						</div>
+					</div>
+					<div class="card addnew">添加新地址</div>
+				</div>
+				<a href="" class="unfold">显示全部地址</a>
+			</div>
+			<div class="info">
+				<div class="module-hd clearfix">
+					<div class="left title">确认订单信息</div>
+					<a href="javascript:;" class="right">返回修改购物车</a>
+				</div>
+				<div class="module-bd cont01">
+			    	<table width="100%">
+			        	<tbody>
+				        	<tr>
+				            	<th width="19"></th>
+				                <th width="70" class="txtleft">订购内容</th>
+				                <th width="203" class="txtleft"></th>
+				                <th width="202">订阅类型</th>
+				                <th width="202">单价</th>
+				                <th width="100">数量</th>
+				                <th width="126">小计</th>
+				            </tr>
+				            <tr>
+				            	<td width="19"></td>
+				                <td class="img"><a href="#" target="_blank" title=""><img src="../imagesTemp/mycart-bookpic.jpg" width="43" height="58"></a></td>
+				                <td class="txtleft">
+				                <p class="name"><a href="#" target="_blank" title="创业邦 2016年第09期">创业邦 2016年第09期</a></p>
+				                <p class="source">CNKI远见搜索</p>
+				                </td>
+				                <td>杂志<strong>（纸刊+电子版）</strong></td>
+				                <td>￥10.00</td>
+				                <td>10</td>
+				                <td>￥10.00</td>
+				            </tr>
+				            <tr>
+				            	<td width="19"></td>
+				                <td class="img"><a href="#" target="_blank" title=""><img src="../imagesTemp/mycart-bookpic.jpg" width="43" height="58"></a></td>
+				                <td class="txtleft">
+				                <p class="name"><a href="#" target="_blank" title="创业邦 2016年第09期">创业邦 2016年第09期</a></p>
+				                <p class="source">CNKI远见搜索</p>
+				                </td>
+				                <td>杂志<strong>（电子版）</strong></td>
+				                <td>￥10.00</td>
+				                <td> —— </td>
+				                <td>￥10.00</td>
+				            </tr>
+			           		<tr>
+				            	<td width="19"></td>
+				                <td class="img"><a href="#" target="_blank" title=""><img src="../imagesTemp/mycart-bookpic.jpg" width="43" height="58"></a></td>
+				                <td class="txtleft">
+				                <p class="name"><a href="#" target="_blank" title="创业邦 2016年第09期">创业邦 2016年第09期</a></p>
+				                <p class="source">CNKI远见搜索</p>
+				                </td>
+				                <td>杂志<strong>（纸刊+电子版）</strong></td>
+				                <td>￥10.00</td>
+				                <td>10</td>
+				                <td>￥10.00</td>
+				            </tr>
+			        	</tbody>
+			        </table>
+			        <div class="totalAmount">
+			        	<p class="p1"><i>3</i> 种期刊，其中纸刊<i> 4 </i>本，总计金额：<span><i>165</i> 元</span></p>
+	                    <p>运费：<span>0.00 元</span></p>
+			        </div>
+			        <div class="sum">
+			        	<p><strong>应付总额：</strong><span class="money"><i>165</i>元</span></p>
+	                	<p>纸刊寄送至： 北京 海淀区 西小口路66号东升科技园北领地A2楼    收货人：赵婷婷    13810435662</p>
+			        </div>
+
+			        <a href="" class="submitBtn">提交订单</a>
+			        <script>
+						$("table tr td:first").css({"border-bottom-width":"0px"})
+						$("table tr td:last").css({"border-bottom-width":"0px"})
+						$("table tr:last td").css({"border-bottom-width":"0px"})
+						$(".cont01 .all, .cont01 .label").click(function(){
+							if($(".cont01 .all").prop("checked")==true){
+								$(".cont01 input[type='checkbox']").prop({"checked":true})
+								}
+							else{$(".cont01 input[type='checkbox']").prop({"checked":false})}
+							})
+						$(".cont01 .all1, .cont01 .label").click(function(){
+							if($(".cont01 .all1").prop("checked")==true){
+								$(".cont01 input[type='checkbox']").prop({"checked":true})
+								}
+							else{$(".cont01 input[type='checkbox']").prop({"checked":false})}
+							})
+			        </script>
+				</div>
+			</div>
+    	</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="width1040pxAuto">
+		    	<div class="left s1">
+		        	<div><img src="../images/mycart-f-logo.png" width="238" height="79"></div>
+		            <p>京ICP证040431号 互联网出版许可证 经营性网站备案信息</p>
+		            <p>新出网证(京)字008号 京公网安备11010802014875号</p>
+		        </div>
+		        <div class="left s2">
+		        	<div class="links"><a href="#" target="_blank" title="">中国知网</a>|<a href="#" target="_blank" title="" class="padding">充值中心</a>|<a href="#" target="_blank" title="" class="padding">购买知网卡</a>|<a href="#" target="_blank" title="" class="padding">安装阅读器</a>|<a href="#" target="_blank" title="" class="padding">在线客服</a>|<a href="#" target="_blank" title="" class="padding">帮助中心</a></div>
+		            <div class="info clearfix">
+		        	<div class="info-l left">
+		            	<p>数字出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+		                <p>在线发行：同方知网（北京）技术有限公司</p>
+		                <p>通讯地址：北京清华大学 84-48信箱 大众知识服务公司</p>
+		                <p>传　　真：010-62780361</p>
+		            </div>
+		            <div class="info-r left">
+		            	<p>订购热线：400-819-9993&nbsp;010-62982499</p>
+		                <p>服务热线：800-810-6613&nbsp;010-62791813</p>
+		                <p>在线咨询：http：//help.cnki.net</p>
+		                <p>服务邮箱：help@cnki.net</p>
+		            </div>
+		        </div>
+		        	
+		        </div>
+		        <div class="s3 left">
+		        	<img src="../images/mycart-ewm.jpg" width="114" height="113" title="" alt="">
+		            <p>关注我们获得更多服务</p>
+		        </div>
+		    </div>
+		</div>
+	    <script type="text/javascript">
+	    	$('.confirmOrder .address .card').each(function () {
+	    		var index=$(this).index();
+	    		if(index>0&index%2==0){
+	    			$(this).addClass('mgr0');
+	    		}
+	    	});
+	    	$('.confirmOrder .address .card:not(.addnew)').click(function () {
+	    		$(this).addClass('active').siblings().removeClass('active');
+	    	})
+	    </script>
+    </body>
+</html>

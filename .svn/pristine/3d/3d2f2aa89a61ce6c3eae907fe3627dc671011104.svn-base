@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/public.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/orders.css">
+    </head>
+    <body>
+        <div class="shadow"></div>
+        <div class="loading"><img src="../images/loading.gif" height="33" width="130" alt=""></div>
+    </body>
+</html>

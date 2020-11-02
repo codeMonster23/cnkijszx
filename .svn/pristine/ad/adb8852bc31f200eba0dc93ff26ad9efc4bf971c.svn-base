@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/public.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/orders.css">
+    </head>
+    <body>
+        <!--微信扫码支付弹框-->
+        <div class="shadow"></div>
+        <div class="modal modal2 modal_wx">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close">&times;</a>
+                    <h4><img src="../images/wx.png"><span>微信支付</span></h4>
+                    <p>请使用微信扫描二维码完成支付</p>
+                </div>
+                <div class="modal-body">
+                    <div class="ewm"><img src="../images/wx_ewm.png" height="190" width="190"></div>
+                    <a href="javascript:void(0)" class="btn btn-complete">完成</a>
+                </div>
+            </div>  
+        </div><!--modal2-->
+    </body>
+</html>

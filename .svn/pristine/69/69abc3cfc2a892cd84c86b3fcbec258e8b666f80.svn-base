@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CNKI结算中心</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="w1200Auto clearfix">
+            <div class="left"><a href="">中国知网</a></div>
+            <div class="right">
+                <a href="">登录</a>|<a href="">注册</a>|<a href="">购物车</a>|<a href="">阅读器</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner"></div>
+    <div class="main institution w1200Auto clearfix">
+        <div class="breadcurmb">
+            <a href="">首页</a>&gt;<span>出版机构专区</span>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w1200Auto">
+            <div class="links">
+                <a href="#" target="_blank" title="">中国知网</a>
+                |
+                <a href="#" target="_blank" title="">充值中心</a>
+                |
+                <a href="#" target="_blank" title="">购买知网卡</a>
+                |
+                <a href="#" target="_blank" title="">安装阅读器</a>
+                |
+                <a href="#" target="_blank" title="">在线客服</a>
+                |
+                <a href="#" target="_blank" title="">帮助中心</a>
+            </div>
+            <div class="info">
+                <div class="left s1">
+                    <p>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+                    <p>地址：北京清华大学84-48信箱  大众知识服务</p>
+                    <p>京ICP证040431号  网络出版服务许可证（总）网出证（京）字第271号</p>
+                    <p>经营性网站备案信息</p>
+                </div>
+                <div class="left s2">   
+                    <p>服务咨询：400-810-9888 400-819-9993</p>
+                    <p>订购咨询：400-819-9993</p>
+                    <p>传真：010-62780361</p>
+                    <p>京公网安备 11010802020460号</p>
+                </div>
+                <div class="right s3">
+                    <img src="../images/copyright1.png" alt="">
+                    <img src="../images/copyright2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

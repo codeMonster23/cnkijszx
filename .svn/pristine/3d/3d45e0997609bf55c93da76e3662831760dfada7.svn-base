@@ -1,0 +1,499 @@
+@charset "UTF-8";
+.topbar {
+  height: 24px;
+  line-height: 24px;
+  background: #f0f0f0;
+}
+
+.topbar a {
+  display: inline-block;
+  line-height: 24px;
+  margin: 0 6px;
+  color: #1e1e1e;
+}
+
+.banner {
+  height: 150px;
+  margin-bottom: 40px;
+  background: url(../images/banner.jpg) top center no-repeat;
+}
+
+.menu {
+  width: 213px;
+  margin-right: 13px;
+  border: 1px solid #22b17c;
+  color: #3c3c3c;
+}
+
+.menu h1 {
+  height: 44px;
+  line-height: 44px;
+  padding-left: 15px;
+  background: #22b17c;
+  color: #fff;
+  font: 18px/44px "微软雅黑";
+}
+
+.menu .item {
+  position: relative;
+  border-bottom: 1px dotted #9f9f9f;
+  background: #f1fffa;
+}
+
+.menu .item.cur .menu-item {
+  position: relative;
+  z-index: 20;
+  width: 214px;
+  background: #fff;
+}
+
+.menu .item a:hover {
+  color: #f13333 !important;
+}
+
+.menu .item h2 {
+  line-height: 40px;
+  padding-left: 10px;
+  background: url(../images/icon4.png) 195px center no-repeat;
+  font-size: 14px;
+}
+
+.menu .item .menu-item ul {
+  padding-top: 6px;
+  overflow: hidden;
+}
+
+.menu .item .menu-item ul li {
+  float: left;
+  margin-bottom: 16px;
+}
+
+.menu .item .menu-item ul li a {
+  padding: 0 8px;
+  border-right: 1px solid #3c3c3c;
+}
+
+.menu .item .submenu {
+  position: absolute;
+  right: -725px;
+  top: 50%;
+  z-index: 10;
+  width: 663px;
+  padding: 0 30px;
+  border: 1px solid #22b17c;
+  background: #fff;
+  display: none;
+}
+
+.menu .item .submenu .list-item {
+  line-height: 30px;
+  padding: 2px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.menu .item .submenu .list-item .title {
+  width: 104px;
+  font-weight: bold;
+}
+
+.menu .item .submenu .list-item .title a {
+  color: #3c3c3c;
+}
+
+.menu .item .submenu .list-item ul {
+  overflow: hidden;
+}
+
+.menu .item .submenu .list-item ul li {
+  float: left;
+}
+
+.menu .item .submenu .list-item ul a {
+  padding: 0 9px;
+  border-left: 1px solid #c8c8c8;
+  color: #787878;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.carousel ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.carousel ul li.first {
+  display: block;
+}
+
+.carousel ol.circleList {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -27px;
+  width: 54px;
+  height: 10px;
+}
+
+.carousel ol.circleList li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: #787878;
+  margin: 0 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel ol.circleList li.cur {
+  background-color: #fff;
+}
+
+.carousel2 {
+  height: 260px;
+}
+
+.carousel2 ol.circleList {
+  margin-left: -36px;
+  width: 72px;
+}
+
+.carousel2 ol.circleList li {
+  background-color: #bfbfbf;
+}
+
+.carousel2 ol.circleList li.cur {
+  background-color: #22b17c;
+}
+
+.topbanner {
+  width: 972px;
+}
+
+.topbanner .leftSide {
+  width: 712px;
+}
+
+.topbanner .leftSide .search {
+  width: 570px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #22b17c;
+  margin: 0 auto 17px;
+}
+
+.topbanner .leftSide .search input {
+  float: left;
+  width: 470px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 12px;
+}
+
+.topbanner .leftSide .search .searchBtn {
+  float: left;
+  width: 88px;
+  background: #22b17c;
+  color: #fff;
+  text-align: center;
+  font: 18px/40px "微软雅黑";
+}
+
+.topbanner .rightSide .linkBtn a {
+  float: left;
+  width: 118px;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 17px;
+  background: #eee;
+  color: #3c3c3c;
+  text-align: center;
+  font: 16px/40px "微软雅黑";
+}
+
+.topbanner .rightSide .courier {
+  width: 248px;
+  height: 298px;
+  border: 1px solid #ebebeb;
+  margin-left: 10px;
+}
+
+.topbanner .rightSide .courier h4 {
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+
+.topbanner .rightSide .courier .carousel2 .item {
+  margin: 10px 22px;
+}
+
+.topbanner .rightSide .courier .carousel2 .item .pic {
+  width: 74px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.topbanner .rightSide .courier .carousel2 .item .name {
+  width: 100px;
+  line-height: 18px;
+  padding-top: 20px;
+}
+
+.topbanner .rightSide .courier .carousel2 .item .name a {
+  color: #3b3b3b;
+}
+
+.booklist {
+  overflow: hidden;
+}
+
+.booklist li {
+  float: left;
+  width: 168px;
+  height: 233px;
+  border: 1px solid #fff;
+  margin: 25px 4px 0;
+}
+
+.booklist li:hover {
+  border: 1px solid #dcdcdc;
+}
+
+.booklist li .pic {
+  display: table-cell;
+  vertical-align: middle;
+  width: 168px;
+  height: 170px;
+  text-align: center;
+}
+
+.booklist li .pic img {
+  display: inline-block;
+}
+
+.booklist li .info {
+  padding-left: 13px;
+}
+
+.booklist li .info .name {
+  margin-bottom: 10px;
+}
+
+.booklist li .info .name a:hover {
+  color: #f13333;
+  text-decoration: underline;
+}
+
+.booklist li .info .author {
+  color: #b5b5b5;
+}
+
+.rank {
+  width: 248px;
+}
+
+.rank .title {
+  padding-left: 30px;
+  background: url(../images/icon2.png) left center no-repeat;
+  font: 24px/48px "微软雅黑";
+}
+
+.rank .content {
+  height: 520px;
+  border: 1px solid #ebebeb;
+}
+
+.rank .content .tabnav {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.rank .content .tabnav span {
+  float: left;
+  width: 48px;
+  height: 28px;
+  line-height: 28px;
+  border-right: 1px solid #dcdcdc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rank .content .tabnav span.last {
+  border-right: none;
+}
+
+.rank .content .tabnav span.cur {
+  position: relative;
+  bottom: -1px;
+  height: 27px;
+  border-top: 2px solid #22b17c;
+  background: #fff;
+  font-weight: bold;
+  color: #22b17c;
+}
+
+.rank .content .list {
+  padding: 0 5px;
+}
+
+.rank .content .list .item {
+  height: 37px;
+  line-height: 37px;
+  border-bottom: 1px dotted #ddd;
+  overflow: hidden;
+}
+
+.rank .content .list .item .num {
+  float: left;
+  width: 22px;
+  padding-left: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rank .content .list .item .num.red {
+  font-size: 16px;
+  color: #f13333;
+}
+
+.rank .content .list .item .text {
+  float: left;
+  width: 200px;
+  overflow: hidden;
+}
+
+.rank .content .list .item .pic {
+  float: left;
+  margin-top: 27px;
+}
+
+.rank .content .list .item.cur {
+  height: 148px;
+  padding-right: 15px;
+}
+
+.rank .content .list .item.cur .num {
+  width: 16px;
+}
+
+.rank .content .list .item.cur .text {
+  width: 97px;
+  line-height: 20px;
+  margin-left: 25px;
+  margin-top: 38px;
+}
+
+.newbook .title {
+  font: 24px/48px "微软雅黑";
+}
+
+.newbook .recommend {
+  width: 712px;
+}
+
+.newbook .recommend .title {
+  padding-left: 36px;
+  border-bottom: 1px solid #22b17c;
+  background: url(../images/icon1.png) left center no-repeat;
+}
+
+.module .module-hd {
+  height: 38px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.module .module-hd .title {
+  padding-left: 20px;
+  background: url(../images/icon5.jpg) left center no-repeat;
+  font: 24px/38px "微软雅黑";
+}
+
+.module .module-hd .tabnav {
+  padding-top: 14px;
+  margin-left: 14px;
+}
+
+.module .module-hd .tabnav li {
+  position: relative;
+  float: left;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 16px;
+  border-right: 1px solid #b5b5b5;
+}
+
+.module .module-hd .tabnav li.cur {
+  color: #22b17c;
+}
+
+.module .module-hd .tabnav li.last {
+  border-right: none;
+}
+
+.module .module-hd .tabnav li .line {
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  border-bottom: 2px solid #22b17c;
+}
+
+.module .module-hd .more {
+  line-height: 32px;
+  margin-top: 6px;
+  color: #3d3d3d;
+}
+
+.module .booklist {
+  padding-top: 30px;
+}
+
+.module .booklist li {
+  margin: 0 15px 25px;
+}
+
+.goodbook .module {
+  width: 940px;
+  margin-top: 12px;
+}
+
+.goodbook .module li {
+  margin: 0 9px 25px;
+}
+
+.publisher .module-bd ul {
+  padding-top: 34px;
+  margin: 0 0 32px -53px;
+  overflow: hidden;
+}
+
+.publisher .module-bd ul li {
+  float: left;
+  display: table;
+  width: 258px;
+  height: 84px;
+  margin: 0  0 15px 53px;
+  border: 1px solid #e5e5e5;
+  background: #f6f6f6;
+}
+
+.publisher .module-bd ul li a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.publisher .module-bd ul li a img {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=../maps/index.css.map */

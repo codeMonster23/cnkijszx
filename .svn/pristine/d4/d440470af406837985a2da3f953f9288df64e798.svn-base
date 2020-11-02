@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/public.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/orders.css">
+        <script src="../js/jquery-1.8.2.min.js"></script>
+    </head>
+    <body>
+        <div class="shadow"></div>
+        <div class="modal modal1 modal6">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close">&times;</a>
+                    新增收货地址
+                </div>
+                <div class="modal-body">
+                    <div class="item clearfix">
+                        <label>* 收 货 人：</label><input type="text">
+                    </div>
+                    <div class="item clearfix">
+                        <label>* 联系电话：</label><input type="text">
+                    </div>
+                    <div class="item clearfix">
+                        <label>* 所在地区：</label>
+                        <div class="dropdown">
+                            <p> 请选择</p>
+                            <ul>
+                                <li class="active">北京</li>
+                                <li>上海</li>
+                                <li>广州</li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <p> 请选择</p>
+                            <ul>
+                                <li>北京</li>
+                                <li>北京</li>
+                                <li>北京</li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <p> 请选择</p>
+                            <ul>
+                                <li>北京</li>
+                                <li>北京</li>
+                                <li>北京</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item address clearfix">
+                        <label>* 详细地址：</label><input type="text">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="javascript:;" class="btn">保存</a><a href="javascript:;" class="btn btn2">取消</a>
+                </div>
+            </div>  
+        </div>
+        <script>
+            // 下拉
+            $('.dropdown p').mouseenter(function () {
+                $(this).siblings('ul').slideDown(200);
+            });
+            $('.dropdown').mouseleave(function () {
+                $(this).find('ul').slideUp(200);
+            });
+        </script>
+    </body>
+</html>

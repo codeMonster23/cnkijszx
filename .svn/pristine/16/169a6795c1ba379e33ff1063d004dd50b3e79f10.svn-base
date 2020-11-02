@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/public.css">
+        <link rel="stylesheet" type="text/css" href="../css/cart/orders.css">
+    </head>
+    <body>
+        <!--账户适用金额说明弹框-->
+        <div class="shadow"></div>
+        <div class="modal modal1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close">&times;</a>
+                    账户适用金额说明
+                </div>
+                <div class="modal-body">
+                    <p>通过网银、支付宝、微信、神州行卡、财付通等方式或中国知网正式销售的中国知网会员卡，为中国知网会员账号进行充值的金额以及所产生的赠券金额，可在CNKI学问、数字出版物超市中购买书刊商品。</p>
+                    <p>持中国知网机构卡、体验卡、试用卡、礼品卡、专用卡、专业数据库检索卡等为CNKI账号进行充值的金额，仅限于在中国知识资源总库下载文献使用。</p>
+                    <a href="javascript:void(0)" class="btn btn-close">关闭</a>
+                </div>
+            </div>  
+        </div><!--modal1-->
+    </body>
+</html>
